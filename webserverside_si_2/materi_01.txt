@@ -1,0 +1,61 @@
+personal home page
+PHP Hypertext Preprocessor
+
+php : - adalah bahasa scripting
+      - tidak membuat file exec
+      - metode inpreter
+
+php :> algoritma pemrograman
+
+konsep algoritma
+- sequence
+- kondisi
+- perulangan
+
+penyajian algoritma
+- pernyataan deskriptif
+- bantuan model (flowchart)
+- pseudecode
+
+pemrograman dengan PHP
+- bahasa program : notasi / key words / idenfier
+<?php ... ?>
+- IPO
+- variabel : simpanan data nilai berubah
+    * diawali dengan tanda $
+    * nama variabel case sensitif
+      $nama $Nama $NAMA
+    * tidak dimulai dg angka
+      $nim100
+    * tidak boleh ada sepasi
+      $namaMahasiswa
+
+- tipe data : menentukan jenis simpanan data
+  * integer, float, string, bolean, obyek, array, resource
+
+  $namaMahasiswa = "Ful\" \@ \& \$ an" ;
+
+- operator : simbol mengubah operand
+  aritmatika : - + * / %
+  perbadingan : == < > <= >= !=
+  logika : || && 
+  assigment : = ++ -- += .=
+
+- variabel super global
+  $_POST, $_GET, $_SERVER, $_FILES
+
+- struktur kendali program : perintah untuk mengendalikan alur program
+
+--------------------------------------------------------------------------
+
+Tugas Rumah
+-----------
+Buatlah program dari rumus matematika menghitung bangun datar atau ruang
+
+- file form.php
+- file hitung.php
+
+- kerjakan secara kelompok (2 s/d 3 mhs)
+- listing, screen shoot, penjelasan 
+
+
