@@ -1,0 +1,20 @@
+link / hyperlink / tautan : teks singkat, jika diklik akan membuka / menuju dokumen web lainnya
+
+<a href="url"> teks </a>
+
+jenis link:
+* link relatif : tidak menampilkan nama server dan mengacu ke diri server tersebut
+* link absolute : menampilkan nama server dan mengacu server luar
+* link bookmark : mengacu ke halamannya sendiri
+
+list : konten berupa daftar 
+* order list : penanda berurutan berupa angka / huruf
+<ol>
+  <li>item</li>
+</ol>
+
+* unorder list : penanda berupa simbol (kotak, lingkaran, disk)
+<ul>
+  <li>item</li>
+</ul>
+
