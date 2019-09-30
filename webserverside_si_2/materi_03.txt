@@ -1,0 +1,15 @@
+Array 
+-----
+--> variabel berindeks 
+--> memuat nilai lebih dari
+
+mendefinisikan Array
+   namaVarArray[index] = nilai
+
+   namaVarArray = array(index-ke-1 => nilai-ke-1, ... , index-ke-2 => nilai-ke-n)
+
+   namaVarArray = [index-ke-1 => nilai-ke-1, .... , index-ke-1 => nilai-ke-n]
+
+jenis array
+- array dengan index numerik
+- array dengan index assosiatif
