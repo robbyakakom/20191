@@ -1,0 +1,44 @@
+Tugas Rumah :
+Ubahlah Tugas 1 
+Buat program , tampilan
+-------------------------------------------------
+Data Mahasiswa 
+NIM : [input]
+NAMA : [input]
+
+Isi data Matakuliah ? (YA/TIDAK) [input]
+
+Nama Matakuliah : [input]
+Nilai Huruf : [input] A B C D atw E
+Bobot : [output]
+SKS : [input]
+
+Isi data Matakuliah lagi ? (YA/TIDAK) [input]
+
+=================================================
+                 DAFTAR MATAKULIAH
+-------------------------------------------------
+No | Nama Matkuliah | Nilai Huruf | Bobot | SKS |
+-------------------------------------------------
+1  | output         | output      | output|outpt|
+2  | output         | output      | output|outpt|
+3  | output         | output      | output|outpt|
+dst| output         | output      | output|outpt|
+-------------------------------------------------
+Jumlah Bobot x SKS : [output]
+Jumlah SKS : [output] 
+IPK : [output]
+-------------------------------------------------
+
+Keterangan :
+IPK = Jumlah Bobot x SKS / Jumlah SKS
+Bobot : 
+  Jika nilai_huruf = A maka bobot = 4
+  Jika nilai_huruf = B maka bobot = 3
+  Jika nilai_huruf = C maka bobot = 2
+  Jika nilai_huruf = D maka bobot = 1
+  Jika nilai_huruf = E maka bobot = 0
+
+Hasil dikumpulkan :
+- format doc docx pdf
+- listing, screen shoot hasil, penjelasan
