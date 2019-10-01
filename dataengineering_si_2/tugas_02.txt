@@ -1,7 +1,8 @@
 Tugas Rumah :
 Ubahlah Tugas 1 
 Buat program , tampilan
--------------------------------------------------
+
+=================================================
 Data Mahasiswa 
 NIM : [input]
 NAMA : [input]
@@ -26,9 +27,10 @@ No | Nama Matkuliah | Nilai Huruf | Bobot | SKS |
 dst| output         | output      | output|outpt|
 -------------------------------------------------
 Jumlah Bobot x SKS : [output]
-Jumlah SKS : [output] 
-IPK : [output]
+Jumlah SKS         : [output] 
+IPK                : [output]
 -------------------------------------------------
+
 
 Keterangan :
 IPK = Jumlah Bobot x SKS / Jumlah SKS
