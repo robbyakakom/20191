@@ -1,0 +1,28 @@
+CSS : Cascading Style Sheet
+---------------------------
+sintaks :
+selector { properti : nilai ; .... ; properti : nilai}
+
+selector : target yang dikenai aturan css 
+- tag : nama tag
+  h1, a, div, span, body
+- id : lebih spesifik
+  didalam pernyataan css bertanda #
+  element html menggunakan atribut id
+- class : kelompok
+  didalam pernyataan css bertanda .
+  element html menggunakan atribut class
+
+cara penulisan css
+- internal : perintah pernyataan css berada dalam dokumen html
+    ditulis di dalam tag <style> .... </style>
+- eksternal : perintah pernyataan css disimpan dalam file ekstensi .css
+    menggunakan tag <link>
+- inline : perintah pernyataan css berada di tag dengan atribut style=""
+
+HTML : struktur 
+CSS : layout, tampilan, tata letak
+Javascript : interaktif
+
+PHP : aplikasi pengendali server
+
