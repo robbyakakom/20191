@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <mahasiswa>
+  <nim>0999</nim>
+  <nama>Budi</nama>
+  <jurusan>SI</jurusan>
+  <matakuliah>
+    <namamk>Algoritma</namamk>
+    <nilai>A</nilai>
+  </matakuliah>
+</mahasiswa> 
