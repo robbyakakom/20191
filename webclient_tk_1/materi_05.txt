@@ -1,0 +1,11 @@
+BOX MODEL
+---------
+mengatur element web : width , height
+mengatur tepian / border 
+mengatur padding : jarak tepian dengan konten
+mengatur margin : jarak antar element / tepian dengan element luar
+mengatur floating point 
+mengatur display
+mengatur positioning
+
+

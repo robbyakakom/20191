@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  * {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+  }
+  .container{
+    width: 500px;
+    margin: auto;
+  }
+  .left{
+    width:25%;
+    float: left;
+  }
+  .content{
+    width:50%;
+    float: left;
+  }
+  .right{
+    width:25%;
+    float: left;
+  }
+  @media screen and (max-width: 300px){
+    .container, .left, .konten, .right {
+      width: 100%;
+    }
+  }
+  @media print {
+    * {
+      border : none;
+    }
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      header
+    </div>
+    <div class="row" style="height: 300px">
+      <div class="left" style="font-family: consolas">
+        &lt; bold &gt; ini dalam tag &lt; \bold &gt; 
+      </div>
+      <div class="content">
+        <form action="">
+          <label>User</label> : <input type="text" name="user"> <br>
+          <label>Password</label> : <input type="text" name="password"> <br>
+          <button>LOGIN</button>
+        </form>
+      </div>
+      <div class="right">
+        side bar kanan
+      </div>
+    </div>
+    <div class="row">
+      footer
+    </div>
+  </div>
+</body>
+</html>

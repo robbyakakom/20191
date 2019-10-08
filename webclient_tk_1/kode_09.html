@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    /* * {
+      border: 1px solid green;
+    } */
+    #label {
+      box-sizing: border-box;
+      width: 350px;
+      height: 150px;
+      border-top: 2px groove #f00;
+      border-bottom: 3px dashed #ff0;
+      padding : 20px 20px;
+      margin: auto ;
+      border-radius: 40px;
+    }
+    .field{
+      float: left;
+    }
+    .data {
+      float: right;
+    }
+    .baris:after{
+      clear: both;
+      display: table;
+      content: "";
+    }
+    #menu {
+      position: fixed;
+      top: 50px;
+      left: 100px;
+
+    }
+    #menu a {
+      display: block;
+      width: 150px;
+      height:15px;
+      margin: 5px;
+      background: yellow;
+      padding: 10px;
+      text-decoration: none;
+    }
+    #menu a:hover{
+      background: black;
+      color: white;
+    }
+    #tutup{
+      text-align: right;
+      font-weight: bolder;
+      color: red;
+      font-family: arial;
+      padding: 3px;
+      cursor:pointer;
+    }
+    #tutup:hover{
+      color: lightcoral;
+    }
+  </style>
+</head>
+<body>
+  <a href="">Link di luar id menu </a>
+  <div id="menu">
+    <div id="tutup">
+      X
+    </div>
+      <a href="">Link 1</a>
+      <a href="">Link 2</a>
+      <a href="">Link 3</a>
+  </div>
+  <div id="label">
+    <div class="baris">
+      <div class="field">NIM</div>
+      <div class="data">0999</div>
+    </div>
+    <div class="baris">
+      <div class="field">Nama</div>
+      <div class="data">Robby</div>
+    </div>
+    <div class="baris">
+      <div class="field">Jurusan</div>
+      <div class="data">TK</div>
+    </div>
+  </div>
+  <div>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis nam aut nesciunt, ullam magni, facilis officiis, blanditiis accusamus dolores magnam ut. Nam accusantium aperiam, sequi laboriosam eius blanditiis incidunt ipsum.
+    Consectetur incidunt et earum doloremque. Porro quia blanditiis explicabo quis quas culpa hic exercitationem harum distinctio. Praesentium ea impedit ducimus rem assumenda, animi, ut sunt quas debitis ex odio beatae?
+    Itaque expedita fugit sunt, quisquam qui iusto ullam. Earum praesentium esse minus, vitae neque minima cum tempore porro dolorem hic provident ea voluptate soluta, ab nesciunt deserunt maiores molestias quasi.
+    Ut vero, est minima quo, laudantium minus provident ratione dolor, dignissimos eius veniam asperiores voluptates accusamus? Accusamus ipsa odit laboriosam! Earum et voluptatem distinctio numquam excepturi? Mollitia ducimus natus saepe.
+    Sunt nam, voluptatibus nesciunt provident soluta similique culpa minima veritatis omnis. Et nostrum qui ex? Qui ipsum beatae quas cupiditate praesentium cum impedit sit ex nam explicabo! Numquam, voluptatum soluta?
+  </div>
+</body>
+</html>
