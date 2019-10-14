@@ -1,0 +1,26 @@
+fungsi : 
+  blok program yang dapat di panggil
+
+jenis fungsi :
+1. built-in function (fungsi bawaan) : fungsi yang sudah ada di php
+
+2. definition function (fungsi buatan) : fungsi yang dibuat oleh programer
+
+sintaks mendefinisikan :
+function NAMA-FUNGSI (PARAMETER, ... , PEREMETER) {
+  ---- perintah program ----
+  return VARIABEL-KELUARAN
+}
+
+sintaks memanggil fungsi :
+NAMA-FUNGSI (ARGUMEN, ..., ARGUMEN) ;
+
+jenis variabel di fungsi / lingkup / scope:
+- Global variabel : variabel dikenal di luar dan dalam badan fungsi
+- Local variabel : variabel dikenal di dalam badan fungsi
+
+static = variabel nilai dapat berubah
+
+pengiriman argumen di dalam fungsi 
+- pass by value : hanya isi saja yang dikirim
+- pass by referensi : dengan referensi
