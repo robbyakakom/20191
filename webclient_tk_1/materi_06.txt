@@ -1,0 +1,13 @@
+Form : menangkap data / interaksi pengguna dengan sistem
+---------------------------------------------------------
+- tag <form> : kontainer untuk membungkus form
+- di dalam tag <form> terdapat atribut :
+  * action : tujuan file yang di akses ketika submit dijalankan
+  * method : cara kirim (get atau post)
+
+- element-element form
+  * <input> ==> type : text, radio, checkbox, file
+  * <select>
+  * <button> ==> type : submit, reset
+  * <textarea>
+  * <label>

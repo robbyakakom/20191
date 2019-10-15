@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Input Data</h1>
+  <form action="tampil.php" method="post" enctype="multipart/form-data" >
+    Angka <input type="number" name="angka" id="angka" max="10" min="5"> <br>
+    <fieldset>
+      <legend>Akses User</legend>
+      <label for="user">User</label> <br>
+      <input type="text" name="user" id="user"> <br>
+      <label for="password">Password</label> <br>
+      <input type="password" name="password" id="password"> 
+    </fieldset>
+    <fieldset>
+        <legend>Biodata</legend>
+        <label for="nim">NIM</label> <br>
+        <input type="text" name="nim" id="nim" maxlength="9" placeholder="Isi dengan NIM" title="NIM ?" value="" disabled> <br>
+        <label for="nama">Nama Mahasiswa</label> <br>
+        <input type="text" name="nama" id="nama" size="50" placeholder="Isi dengan Nama Mahasiswa" title="Nama Mahasiswa ?" value=""> <br>
+        <fieldset>
+          <legend>Jenis Kelamin</legend>
+          <input type="radio" value="Laki-laki" name="jkel" id="l"> <label for="l" >Laki-laki</label>
+          <input type="radio" value="Perempuan" name="jkel" id="p"> <label for="p">Perempuan</label>
+        </fieldset>     
+        <fieldset>
+            <legend>Hobby</legend>
+            <input type="checkbox" value="Main Bola" name="bola" id="bola"> <label for="bola" >Main Bola</label>
+            <input type="checkbox" value="Lari" name="lari" id="lari"> <label for="lari">Lari</label>
+            <input type="checkbox" value="Membaca" name="baca" id="baca"> <label for="baca">Membaca</label>
+            <input type="checkbox" value="Lain-lain" name="lain" id="lain" checked> <label for="lain">Lain-lain</label>
+          </fieldset>   
+        <label for="foto">Upload Foto</label> <br>
+        <input type="file" name="foto" id="foto"> <br>
+        <label for="alamat">Alamat</label> <br>
+        <textarea name="alamat" id="alamat" cols="45" rows="3"></textarea> <br>
+        <label for="prodi">Program Studi</label> <br>
+        <select name="prodi" id="prodi">
+          <option value="">-Pilih-</option>
+          <optgroup label="Sarjana">
+            <option value="Teknik Informatika">Teknik Informatika</option>
+            <option value="Sistem Informasi">Sistem Informasi</option>
+          </optgroup>
+          <optgroup label="Diploma">
+            <option value="Teknik Komputer">Teknik Komputer</option>
+            <option value="Komputer Akuntansi">Komputer Akuntansi</option>
+            <option value="Manajemen Informatika">Manajemen Informatika</option>
+          </optgroup>
+          <optgroup label="Pasca Sarjana">
+            <option value="Magister Teknik Informasi">Magister Teknik Informasi</option>
+          </optgroup>
+          </select>
+        </select> <br>
+        <label for="kelas">Kelas</label> <br>
+        <input list="kelas" name="kelas">
+        <datalist id="kelas" >
+          <option value="T.3.1">
+          <option value="T.3.2">
+          <option value="T.3.3">
+          <option value="T.3.4">
+          <option value="Lab. Pemrograman">
+          <option value="Lab. Basis Data">
+        </datalist>
+    </fieldset>
+    <hr>
+    <button type="submit">KIRIM</button>
+  </form>
+</body>
+</html>
