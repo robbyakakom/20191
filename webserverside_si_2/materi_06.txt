@@ -1,0 +1,70 @@
+akses databases
+---------------
+databases : pangkalan data : tempat menyimpan data 
+DBMS : Databases Management Systems : MySQL, Oracle, PostGres, SQL Server dll
+Databases Relational 
+    |
+Entitas (Table)
+    |
+Atribut (Field)
+
+Bahasa Database : Databases Language : SQL (Structure Query Language)
+- DDL (Data Definition Language) : mendifinisikan / membentuk struktur database / objek database : database, table, view, store prosedur
+  perintah : create, alter, drop
+
+  MySQL> create database penjualan ;
+  MySQL> create table barang(
+    kode varchar(15),
+    nama_barang varchar(15),
+    harga int
+  )
+
+- DML (Data Manipulation Language) : memanipulasi data / record di dalam tabel
+  perintah : select, insert, update, delete
+
+- DCL (Data Control Language) : mengelola konfigurasi database
+
+-------------------------------------------------------------
+PHP - MySQL
+API (Aplication Programming Interface) ==> extention 
+
+MySQLi : extention untuk akses database MySQL
+PDO (Php Database Object) : extention untuk akses database (hampir semua databases yang ada)
+
+Fitur aplikasi / Sistem Informasi : CRUD (Create Read Update Delete)
+----------------------------------------------------------------
+
+MySQLi : perubahan dari extention MySQL
+cara presedural / basis fungsi
+fungsi umum dan sering digunakan :
+mysqli_connect : koneksi ke database MySQL
+mysqli_query : menjalankan query / SQL
+mysqli_fetch_assoc : fetching / merubah source data menjadi array assosiatif
+mysqli_close : menutup koneksi
+
+Algoritma umum akses database (bahasa DML kecuali select : insert, update, delete):
+1. membuat koneksi
+2. membuat sql string
+3. menjalankan query / sql
+4. menutup koneksi
+
+Algoritma umum akses database (bahasa DML : select):
+1. membuat koneksi
+2. membuat sql string
+3. menjalankan query / sql
+4. fetching menjadi array
+5. menampilkan array data hasil fetch
+5. menutup koneksi
+
+
+
+
+
+
+
+
+
+
+
+
+
