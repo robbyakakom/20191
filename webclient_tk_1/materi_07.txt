@@ -1,0 +1,8 @@
+table
+-----
+kolom dan baris
+
+pembuatan tampilan tabel web
+- pembungkus tabel --> <table>
+- pembungkus baris --> <tr>
+- defisikan cell --> <td>
