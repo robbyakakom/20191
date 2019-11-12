@@ -1,0 +1,20 @@
+Multimedia : konten berupa image, image bergerak, suara dan film
+
+image : jpg, png, gif
+image bergerak : swf, gif animation
+suara : mp3, wav
+film : mp4, ogg
+
+menyisipkan konten gambar :
+<img src="" width="" height=""/>
+
+menyisipkan konten animasi :
+gif animation : <img>
+<object data="" />
+<iframe src="" />
+
+suara :
+<audio src=""> </audio>
+
+vidio :
+<vidio src=""> </vidio>
