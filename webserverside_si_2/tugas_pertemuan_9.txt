@@ -1,6 +1,7 @@
 Tugas Rumah:
 ------------
-Buatlah program database fitur CRUD Kependuduk e-KTP
+Ubah hasil Tugas 4 tentang input data KTP
+Buatlah program database untuk fitur CRUD Kependuduk e-KTP
 - nik
 - nama
 - golongan darah
