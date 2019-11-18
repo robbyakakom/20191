@@ -1,3 +1,6 @@
+<?php 
+include("nav.php") ;
+?>
 <h2>Input Data Mahasiswa</h2>
 <form action="file_34.php" method="post">
   NIM <br> <input type="text" name="nim" id="nim"> <br>

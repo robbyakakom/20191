@@ -1,4 +1,5 @@
 <?php 
+include("nav.php") ;
 //tangkap data dari form
 $nim = $_POST['nim'] ;
 $nama = $_POST['nama'] ;

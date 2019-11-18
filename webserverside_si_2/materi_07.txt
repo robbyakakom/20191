@@ -1,0 +1,10 @@
+Akses PHP dengan MySQL
+----------------------
+aplikasi terkoneksi database 
+memerlukan ekstensi : API (Aplication Programming Interface)
+MySQLi extention
+- prosedural : basis fungsi
+  mysqli_connect, mysqli_query, mysqli_fetch_assoc, mysqli_close
+- oop
+
+PDO extention
