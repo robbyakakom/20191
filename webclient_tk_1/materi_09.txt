@@ -1,0 +1,62 @@
+Javascript : membuat web menjadi interaktif
+------------
+bahasa scripting 
+bahasa intepreter hanya dijalankan di browser
+case sensitif
+memodifikasi konten / elemen web
+javascript mengacu ke algoritma pemrograman (variabel, tipe data, operator,  struktur kontrol : pemilihnan / if, switch, perulangan : while do-while for )
+
+dasar-dasar penggunaan javascript
+<script>
+  .....
+</script>
+
+aturan penamaan variabel dan tipe data
+- variabel digunakan untuk menyimpan nilai
+- mendifinisikan variabel 
+    var nama_variabel = "isi nilai" ; // string
+    var angka = 1000 ; // integer
+    var ipk = 3.7 ; // float
+    var mahasiswa = {   // object
+                      nim : "0999",
+                      nama : "Budi"
+                    }
+
+- operator : mengubah nilai variabel
+  * aritmatika : + - * /
+  * boolean : true false
+  * perbandingan : == === < > <= >=
+  * logika : && || !
+
+- struktur kontrol
+  if(kondisi){
+    ......
+  }
+
+  if(kondisi){
+    .....
+  }else{
+    .....
+  }
+
+  switch(variabel){
+    case : nilai
+     ......
+    default :
+      .....
+  }
+
+  while(kondisi){
+    .....
+  }
+
+  for(nilai_awal, kondisi, peningkatan){
+    ......
+  }
+
+mengelola jendela (window)
+window.location.assign
+alert() : menampilkan
+confirm() : pilihan cancel Ok
+prompt() : mengisi nilai
+

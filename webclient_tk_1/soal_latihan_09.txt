@@ -1,0 +1,24 @@
+Kasus membuat program konfersi nilai 
+- masukkan nim :
+- masukkan nama :
+- masukkan matakuliah :
+- masukkan nilai angka (0 - 100) :
+
+Hasil nilai
+NIM : xxx
+Nama : xxxx
+Matakuliah : xxxx
+Nilai Angka : xx
+Nilai Huruf : x
+Keterangan : xxxxx
+
+huruf = 
+jika nilai angka >= 80 maka nilai huruf = A
+jika nilai angka >= 60 maka nilai huruf = B
+jika nilai angka >= 40 maka nilai huruf = C
+jika nilai angka >= 20 maka nilai huruf = D
+Selain itu nilai huruf = E
+
+keterangan =
+jika nilai huruf A atau B atau C maka lulus
+selain itu gagal
