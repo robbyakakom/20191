@@ -8,6 +8,7 @@ Buatlah program database untuk fitur CRUD Kependuduk e-KTP
 - status
 - alamat
 - agama
+- foto
 
 Kerjakan boleh kelompok maksimal 3 mhs
 
