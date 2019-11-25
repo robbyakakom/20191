@@ -54,7 +54,7 @@ Algoritma umum akses database (bahasa DML : select):
 3. menjalankan query / sql
 4. fetching menjadi array
 5. menampilkan array data hasil fetch
-5. menutup koneksi
+6. menutup koneksi
 
 
 

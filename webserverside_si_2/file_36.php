@@ -15,6 +15,7 @@ echo "<table border='1'>
   <th>ID</th>
   <th>NIM</th>
   <th>Nama</th>
+  <th>Foto</th>
   <th>Operasi</th>
 </tr>" ;
 // 4. fetching menjadi array
@@ -24,6 +25,7 @@ while($data = mysqli_fetch_assoc($query)) {
     <td>".$data['id']."</td>
     <td>".$data['nim']."</td>
     <td>".$data['nama']."</td>
+    <td><a href='foto/".$data['foto']."' target='blank'><img src='foto/".$data['foto']."' width='70' alt='foto kosong'></a></td>
     <td>
         <a href='edit_form.php?id=".$data['id']."'>EDIT</a> | 
         <a href='file_38.php?id=".$data['id']."'>HAPUS</a> | 
