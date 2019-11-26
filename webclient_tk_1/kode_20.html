@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  #detail{
+    display:none ;
+  }
+  </style>
+</head>
+<body>
+  <h1 id="judul">Ini Judul Konten</h1>
+  <p id="mahasiswa">
+  </p>
+  <p id="p1">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur quo error voluptatem, provident voluptate animi quis non numquam ullam fugiat eos saepe libero ab doloremque officia maiores perspiciatis alias blanditiis necessitatibus mollitia adipisci molestias minus excepturi. Quos aspernatur quo accusantium odio porro deserunt iusto rerum aperiam voluptatem illum labore ullam consequatur aliquid sunt eveniet molestias, in consequuntur, dolor temporibus? Debitis harum qui ea rerum in quam libero! Sunt aut corporis enim soluta eos, nulla harum quo eum id sint adipisci recusandae eius, dignissimos tenetur laboriosam commodi aliquid sapiente libero earum reprehenderit maiores sit nesciunt eveniet? Consequatur ducimus dicta debitis eaque?
+  </p>
+  <button type="button" onclick="tampilkan()" id="tmblRead">Read more...</button>
+  <div id="detail">
+  <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio repellendus, placeat suscipit nemo eius nesciunt error omnis maxime culpa porro nulla, aut ea quam deleniti aliquam quia sit assumenda. Vel consequatur quas qui optio, sed atque eos reprehenderit explicabo ullam. Expedita odit a facilis nemo perferendis, error in? Itaque, deleniti.</p>
+  <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio repellendus, placeat suscipit nemo eius nesciunt error omnis maxime culpa porro nulla, aut ea quam deleniti aliquam quia sit assumenda. Vel consequatur quas qui optio, sed atque eos reprehenderit explicabo ullam. Expedita odit a facilis nemo perferendis, error in? Itaque, deleniti.</p>
+  <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio repellendus, placeat suscipit nemo eius nesciunt error omnis maxime culpa porro nulla, aut ea quam deleniti aliquam quia sit assumenda. Vel consequatur quas qui optio, sed atque eos reprehenderit explicabo ullam. Expedita odit a facilis nemo perferendis, error in? Itaque, deleniti.</p>
+  <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio repellendus, placeat suscipit nemo eius nesciunt error omnis maxime culpa porro nulla, aut ea quam deleniti aliquam quia sit assumenda. Vel consequatur quas qui optio, sed atque eos reprehenderit explicabo ullam. Expedita odit a facilis nemo perferendis, error in? Itaque, deleniti.</p>
+  </div>
+</body>
+<script>
+  function tampilkan() {
+    document.getElementById('detail').style.display = "block" ;
+    document.getElementById('tmblRead').style.display = "none" ;
+  }
+  var mhs = {
+    nim : "0999" ,
+    nama : "Budi"
+  } ;
+  var objMhs = document.getElementById("mahasiswa") ;
+  objMhs.innerHTML = "NIM " + mhs.nim + "<br>" + "Nama " + mhs.nama ;
+
+  console.log(objMhs)
+</script>
+</html>

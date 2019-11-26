@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <form action="latihan1.html" method="post" name="frLogin" onsubmit="return validasi()">
+    <h2>Login Sistem</h2>
+    <label for="user">User</label> <br> 
+    <input type="text" name="user" id="user" onblur="cekUser()"> <br>
+    <label for="pass">Password</label> <br>
+    <input type="password" name="pass" id="pass" onblur="cekPass()"> <hr>
+    <button type="submit">LOGIN</button>
+  </form>
+</body>
+<script>
+  function cekUser(){
+    var user = frLogin.user.value ;
+    if(user == ""){
+      alert("User belum diisi.") ;
+      return false ;
+    }
+    return true ;
+  }
+
+  function cekPass(){
+    var user = frLogin.pass.value ;
+    if(user == ""){
+      alert("Password belum diisi.") ;
+      return false ;
+    }
+    return true ;
+  }
+
+  function validasi(){
+    if(cekUser() && cekPass())
+      return true ;
+    else
+      return false ;
+  }
+</script>
+</html>
