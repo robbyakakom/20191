@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  Nama <input type="text" id="mhs" name="mhs" /> <br> <br>
+  <button onclick="tambah()">Tambah</button>
+  <h3>Data Mahasiswa</h3>
+  <ul id="daftar">
+
+  </ul>
+  <script>
+    function tambah() {
+      var mhs = document.getElementById("mhs").value ;
+      var daftar = document.getElementById("daftar") ;
+      var li = document.createElement("li") ;
+      var txt = document.createTextNode(mhs) ;
+      li.appendChild(txt) ;
+      daftar.appendChild(li) ;
+    }
+  </script>
+</body>
+</html>
