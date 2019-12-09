@@ -1,4 +1,9 @@
 <?php 
+session_start() ;
+if(!isset($_SESSION['nama'])){
+  header("Location: file_44.php") ;
+}
+
 include("nav.php") ;
 ?>
 <h2>Input Data Mahasiswa</h2>

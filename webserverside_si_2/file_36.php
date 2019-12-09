@@ -1,4 +1,9 @@
 <?php 
+include("header.php") ;
+session_start() ;
+if(!isset($_SESSION['nama'])){
+  header("Location: file_44.php") ;
+}
 include("nav.php") ;
 // 1. membuat koneksi
 $konek = mysqli_connect("localhost","root","","akakom") ;
@@ -8,6 +13,8 @@ $sql = "select * from mhs " ;
 
 // 3. menjalankan query / sql
 $query = mysqli_query($konek, $sql) ;
+
+
 
 echo "<h2>Daftar Mahasiswa</h2>" ;
 echo "<table border='1'>
@@ -35,4 +42,5 @@ while($data = mysqli_fetch_assoc($query)) {
 echo "</table>" ;
 // 5. menutup koneksi
 mysqli_close($konek) ;
+include("footer.php") ;
 ?>

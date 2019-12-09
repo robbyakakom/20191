@@ -1,0 +1,13 @@
+session dan cookie
+--> tempat simpanan secara sementara
+--> session disimpan diserver 
+mengenal sesi 
+session_start() ;
+$_SESSION['index'] = 'nilai' ;
+echo $_SESSION['index'] ;
+session_destroy() ;
+
+--> cookie disimpan dibrowser
+setcookie(name, value, +60000) ;
+echo $_COOKIE['name'] ;
+setcookie(name, value, -60000) ;

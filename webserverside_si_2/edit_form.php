@@ -1,4 +1,5 @@
 <?php 
+include('header.php') ;
 include("nav.php") ;
 
 $id = $_GET['id'] ;
@@ -31,4 +32,5 @@ $data = mysqli_fetch_assoc($query) ;
 <?php 
 // 5. menutup koneksi
 mysqli_close($konek) ;
+include('footer.php') ;
 ?>
