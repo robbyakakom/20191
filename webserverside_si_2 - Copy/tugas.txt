@@ -1,0 +1,14 @@
+Tugas Rumah:
+------------
+Buatlah program database Kependuduk untuk menyimpan data KTP
+- nik
+- nama
+- golongan darah
+- status
+- alamat
+- agama
+
+Kerjakan boleh kelompok maksimal 3 mhs
+
+Kumpulkan bentuk doc, docx, pdf
+berisi source code, screen shoot, penjelasan

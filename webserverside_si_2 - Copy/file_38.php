@@ -4,7 +4,7 @@ include("nav.php") ;
 $id = $_GET['id'] ;
 
 //koneksi
-include("koneksi.php") ;
+$konek = mysqli_connect("localhost","root","","akakom") ;
 
 //sql
 $sql = "delete from mhs where id = $id" ;

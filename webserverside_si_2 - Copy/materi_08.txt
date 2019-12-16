@@ -1,0 +1,26 @@
+fitur upload file
+-----------------
+skenario:
+- form didalam input untuk file upload [browse]
+- tekan tombol simpan / submit
+- file akan tersimpan ke server dan data nama file tersimpan di database
+
+fitur tampil file
+-----------------
+- baca nama file dari database
+- menampilkan file dengan skrip html (img, link/a)
+
+untuk membuat fitur upload:
+- siapkan form (client side)
+  * atribut : 
+    --> method = "post"
+    --> entype = "multipart/form-data"
+  * input : 
+    --> type="file"
+
+- proses simpanan (server side)
+  * variabel global $_FILES[] ==> untuk menangkap data type file
+    :: berupa variabel index: name, size, tmp_name, type
+  * memindahkan file dari tmp_name ke folder yg diinginkan : move_uploaded_file()
+  * menyimpan nama file ke tabel di database
+  

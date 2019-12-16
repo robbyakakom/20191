@@ -1,0 +1,44 @@
+struktur kontrol
+----------------
+- sequence
+- kondisi = pilihan jika kondisi terpenuhi maka jalankan program yang dipenuhi jika tidak maka kerjakan yang lain
+if...  else ....
+* if [kondisi]
+    pernyataan terpenuhi
+
+* if [kondisi]
+    pernyataan terpenuhi
+  else
+    pernyataan tidak terpenuhi
+
+* if [kondisi_1]
+    pernyataan terpenuhi 1
+  elseif [kondisi_2]
+    pernyataan terpenuhi 2
+  ....
+  else
+    pernyataan tidak terpenuhi
+
+  switch variabel {
+    case : nilai 
+      pernyataan 1
+
+    ....
+
+    default :
+      pernyataan
+  }
+
+- perulangan : program akan dikerjakan selama kondisi terpenuhi
+* while (kondisi)
+    pernyataan yang diulang
+
+* do {
+    pernyataan yang diulang
+  }while(kondisi)
+
+* for(inisiasi; kondisi; iterasi)
+    pernyataan yang diulang
+
+* foreach(array as key => value)
+    pernyataan yang diulang

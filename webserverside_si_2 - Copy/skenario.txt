@@ -1,0 +1,4 @@
+skenario program
+1. tampil form input mahasiswa
+2. isi data mahasiswa di form tersebut
+3. klik simpan maka data tersimpan ke database

@@ -1,0 +1,16 @@
+Tugas Rumah:
+------------
+Ubah hasil Tugas 5 tentang input data KTP, dengan menambahkan fitur upload dan tampil foto
+Buatlah program database untuk fitur CRUD Kependuduk e-KTP
+- nik
+- nama
+- golongan darah
+- status
+- alamat
+- agama
+- foto
+
+Kerjakan boleh kelompok maksimal 3 mhs
+
+Kumpulkan bentuk doc, docx, pdf
+berisi source code, screen shoot, penjelasan

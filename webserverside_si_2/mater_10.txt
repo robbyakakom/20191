@@ -1,0 +1,31 @@
+konsep OOP
+----------
+basis objek
+---> atribut : properti, ciri, variabel
+---> method : fungsi, prosedur, perilaku, aktifitas
+
+pemrograman perintah program akan diciptakan objek : atribut dan method
+
+sebelum membuat obyek program harus dibuat semesta program / kelompok / blue print / cetakan / kelas
+
+kelas ==> objek
+
+------------
+::abstraksi
+//mendefinisikan kelas
+class namaKlas { // ::ekapsulasi
+  var $properti2 ; // mendefinisikan atribut
+  var $properti2 ;
+
+  function namaMethod($parameter1,$parameter2){ // mendefinisikan method
+    ......
+    return ....
+  }
+}
+
+kelas diturunkan menjadi kelas lain  : ::inheritance
+::polymorphisme
+
+//menciptakan objek // instantiasi 
+$obj = new namaKlas ;
+$obj2 = new namaKlas ;
